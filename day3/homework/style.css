@@ -1,0 +1,144 @@
+body {
+    background: rgb(28, 71, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+
+p {
+    margin: 5px 0;
+}
+
+input,
+.file-input-wrapper {
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid rgb(149, 149, 149);
+    width: 478px;
+    padding: 3px 10px;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.title {
+    color: #fff;
+    font-weight: 400;
+}
+
+form {
+    background: #fff;
+    width: 500px;
+    padding: 20px 15px;
+}
+
+form>div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+form>div:first-child {
+    margin-top: 0;
+}
+
+.d-flex>div {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.d-flex input {
+    width: 90%;
+}
+
+.input-wrapper {
+    width: 100%;
+}
+
+select {
+    width: 100%;
+    height: 25px;
+    margin: 10px 0;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+option {
+    padding: 3px 5px;
+}
+
+textarea {
+    width: 488px;
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 5px 5px;
+}
+
+.file-require,
+.cv-input-text {
+    color: rgb(149, 149, 149);
+    font-size: 14px;
+}
+
+.btn-group {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+button {
+    background: rgb(234, 99, 8);
+    padding: 5px 15px;
+    border: none;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.cv-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.file-input-wrapper {
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+}
+
+.cv-input {
+    border: none;
+    display: none;
+}
+
+.file-input-wrapper label {
+    background: rgb(234, 99, 8);
+    color: #fff;
+    display: inline-block;
+    padding: 3px 15px;
+}
+
+.error-text {
+    color: red;
+    font-size: 14px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}

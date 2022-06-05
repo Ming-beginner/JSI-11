@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2 class="title">Job Application Form Widget</h2>
+    <form action="">
+        <div class="d-flex justify-content-between">
+            <div>
+                <input type="text" id="fname-input" placeholder="First Name">
+            </div>
+            <div>
+                <input type="text" id="lname-input" placeholder="Last Name">
+            </div>
+        </div>
+        <div class="d-flex justify-content-between">
+            <div>
+                <input type="email" id="email-input" placeholder="Email">
+            </div>
+            <div>
+                <input type="tel" id="phone-input" placeholder="Phone">
+            </div>
+        </div>
+        <div>
+            <div class="input-wrapper country-select-wrapper">
+
+            </div>
+            <div class="country-error-text-wrapper">
+
+            </div>
+        </div>
+        <div>
+            <input type="text" class="address-input" id="address-input" placeholder="Address">
+        </div>
+        <div>
+            <input type="text" class="city-input" id="city-input" placeholder="City">
+        </div>
+        <div>
+            <div class="input-wrapper position-select-wrapper">
+
+            </div>
+            <div class="position-error-text-wrapper">
+
+            </div>
+        </div>
+        <div>
+            <textarea name="additional-info" id="" cols="30" rows="5" placeholder="Additional info"></textarea>
+        </div>
+        <div class="file-input-wrapper">
+            <p class="cv-input-text">Add your CV</p>
+            <input type="file" class="cv-input" id="file-input" accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf">
+            <label for="file-input">Browse</label>
+        </div>
+        <div class="file-error-wrapper"> </div>
+        <p class="file-require">Only: pdf / doc Size: lessthan 1Mb</p>
+        <div class="btn-group">
+            <button type="button" id="reset-btn">Reset</button>
+            <button type="button" id="submit-btn">Send</button>
+        </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
